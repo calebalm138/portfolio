@@ -32,13 +32,13 @@ body {
 }
 
 header {
-    background-color: var(--secondary-color);
+    background-color: var(--nav-background-color);
     display: grid;
     grid-template-columns: 80px 1fr;
 }
 
 .logoimg {
-    width: 80px;
+    width: 100px;
     padding: 10px;
 }
 
@@ -73,6 +73,48 @@ nav a:hover {
     text-align: center;
 }
 
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
 .img-one {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -85,6 +127,7 @@ nav a:hover {
     width: 100%;
     grid-column: 1/2;
     grid-row: 1/2;
+    border: 10px solid var(--primary-color);
 }
 
 .img-one div{
@@ -97,6 +140,26 @@ nav a:hover {
     display: grid;
     justify-content: center;
     margin: 50px;
+}
+
+.aboutme-text{
+    text-align: center;
+}
+
+.about-me-headline{
+    text-align: center;
+}
+
+.my-hobbies{
+    text-align: center;
+}
+
+.img-one-about{
+    border: 5px solid var(--primary-color);
+}
+
+.img-two-about{
+    border: 5px solid var(--primary-color);
 }
 
 footer {
