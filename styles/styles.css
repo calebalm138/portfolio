@@ -76,7 +76,7 @@ nav a:hover {
 
 .container {
   position: relative;
-  width: 50%;
+  width: 85%;
 }
 
 .image {
@@ -131,7 +131,7 @@ nav a:hover {
 }
 
 .img-one div{
-    grid-column: 2/4;
+    grid-column: 1/2;
     grid-row: 1/2;
     padding: 5%;
 }
@@ -140,6 +140,10 @@ nav a:hover {
     display: grid;
     justify-content: center;
     margin: 50px;
+}
+
+.home-paragraph{
+    grid-column: 2/4;
 }
 
 .aboutme-text{
