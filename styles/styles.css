@@ -131,7 +131,6 @@ nav a:hover {
 }
 
 .img-one div{
-    grid-column: 1/2;
     grid-row: 1/2;
     padding: 5%;
 }
@@ -148,6 +147,7 @@ nav a:hover {
 
 .aboutme-text{
     text-align: center;
+    padding: 5%;
 }
 
 .about-me-headline{
@@ -156,15 +156,15 @@ nav a:hover {
 
 .my-hobbies{
     text-align: center;
+    padding: 1%;
 }
 
-.img-one-about{
+.img-one-about, .img-two-about{
     border: 5px solid var(--primary-color);
+    width: 45%;
+    margin: 1%;
 }
 
-.img-two-about{
-    border: 5px solid var(--primary-color);
-}
 
 footer {
     background-color: var(--secondary-color);
