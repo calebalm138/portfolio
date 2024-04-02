@@ -180,20 +180,11 @@ nav a:hover {
     margin: 1%;
 }
 
-.positions{
+.positions, .my-skills, .awards{
     text-align: left;
 }
 
-.resume-list{
-    text-align: left;
-    margin: 0 auto;
-}
-
-.my-skills{
-    text-align: left;
-}
-
-.skills-list{
+.resume-list, .skills-list, .awards-list{
     text-align: left;
     margin: 0 auto;
 }
